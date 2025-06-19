@@ -28,7 +28,7 @@ $(document).ready(function () {
         articles.forEach(article => {
             $("#items-container").append(`
                 <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm p-3 mb-5 bg-white rounded">
+                    <div class="card h-100 shadow-sm p-3 mb-5 rounded">
                     <p class="card-text mt-2">#${article.tags[0]} </p>
                         <img src="${article.thumbnail}" class="card-img-top" alt="${article.title}">
                         <div class="card-body d-flex flex-column">
