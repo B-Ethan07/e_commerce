@@ -21,20 +21,22 @@ nav {
     box-shadow: 1px 3px 20px rgb(65, 65, 65);
 }
 header {
-    background-image: url(/asset/img/natureHeader.jpg);
+    background-image: url(img/autumn-5704791_1280.jpg);
     height: 200px;
-    color: azure;
+    color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
     justify-content: center; 
     align-items: center; 
     box-shadow: 0px 5px 20px rgb(168, 168, 168);
 }
-
-h2 {
-    text-align: center;
-    margin-top: 1em;
+h1 {
+    background-color: black;
+    border-radius:15px ;
+    opacity: 85%;
+    margin: 0;
 }
+
 .products { 
     margin: 10px 10px; 
     padding: 15px; 
