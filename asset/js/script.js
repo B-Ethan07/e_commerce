@@ -35,9 +35,9 @@ $(document).ready(function () {
         articles.forEach(article => {
             $("#items-container").append(`
                 <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow-sm p-3 mb-5 rounded" id="card">
+                    <div class="card h-100 p-3 mb-5 rounded" id="card">
                         <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="badge bg-primary">#${article.tags[0]}</span>
+                            <span class="badge " style="background-color:rgb(42, 14, 117)">#${article.tags[0]}</span>
                         </div>
                         <img src="${article.thumbnail}" class="card-img-top" alt="${article.title}">
                         <div class="card-body d-flex flex-column">
@@ -47,7 +47,7 @@ $(document).ready(function () {
                                 <span class="fs-4 fw-bold">${article.price} €</span>
                                 <span class="ms-2 text-warning">${article.rating} ★</span>
                             </div>
-                            <a href="details.html?id=${article.id}" class="btn btn-outline-primary mt-auto">Voir les détails</a>
+                            <a href="details.html?id=${article.id}" class="btn mt-auto btnHover"  >Voir les détails</a>
                         </div>
                     </div>
                 </div>
