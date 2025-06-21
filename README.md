@@ -15,6 +15,15 @@ Une application web front-end simple développée dans le cadre d’un projet de
 - Ajout au panier (front-end uniquement)
 - Retour vers l’accueil
 - Comportement **responsive** sur mobile et desktop
+- **Page produit dynamique** (via `product.html?id=XX`)
+- **Ajout au panier** à partir de la fiche produit
+- **Page panier (`myCart.html`)**
+  - Affiche dynamiquement les produits ajoutés
+  - Mise à jour automatique du prix total
+- **Résumé de commande** (total, taxes, livraison)
+- **Code promo** (affichage uniquement si panier non vide)
+- **Responsive mobile**
+- Message affiché quand le panier est vide
 
 ---
 
@@ -28,7 +37,14 @@ Une application web front-end simple développée dans le cadre d’un projet de
 ---
 
 ## ⚙️ Installation & utilisation
+
 - Cloner le dépôt :
 git clone https://github.com/B-Ethan07/e_commerce.git
 - Ouvrir le projet localement avec un navigateur ou une extension comme Live Server
 - Visiter index.html pour afficher les produits, puis cliquer sur un produit pour accéder à sa page de détails (details.html?id=1)
+
+---
+
+## ⚙️ Page déployer avec GitHub
+
+https://b-ethan07.github.io/e_commerce/
