@@ -73,7 +73,7 @@ $(document).ready(function () {
             </div>
 
             <div class="mt-4 d-flex align-items-center gap-3">
-              <button class="btn btnHover text-uppercase px-4">Ajouter au panier</button>
+              <a href="myCart.html?id=${article.id}" class="btn mt-auto btnHover2">Ajouter au panier</a>
               <i class="fa fa-heart text-muted fs-5"></i>
               <i class="fa fa-share-alt text-muted fs-5"></i>
             </div>
